@@ -1,0 +1,7 @@
+/* SLIDER */
+
+.carousel-item {
+	padding: 150px 0;
+	background-image: linear-gradient(45deg, #fa0, #fc0);
+	text-align: center;
+}
