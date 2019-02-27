@@ -18,6 +18,7 @@ body {
 }
 
 input,
-button {
+button,
+.card {
 	border-radius: 0 !important;
 }
