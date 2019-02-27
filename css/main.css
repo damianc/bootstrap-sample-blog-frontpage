@@ -16,3 +16,9 @@ body {
 #newsletter-form button {
 	font-size: 12px;
 }
+
+input,
+button,
+.card {
+	border-radius: 0 !important;
+}
