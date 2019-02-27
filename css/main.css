@@ -10,3 +10,9 @@ body {
 .main-container {
 	flex-grow: 1;
 }
+
+#newsletter-form,
+#newsletter-form input,
+#newsletter-form button {
+	font-size: 12px;
+}
