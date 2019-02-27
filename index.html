@@ -8,6 +8,7 @@
 
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/frontpage.css" />
 
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
@@ -25,6 +26,27 @@
 	</nav>
 
 	<div class="main-container">
+		<div id="post-slider" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<h1>Post #1</h1>
+				</div>
+				<div class="carousel-item">
+					<h1>Post #2</h1>
+				</div>
+				<div class="carousel-item">
+					<h1>Post #3</h1>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#post-slider" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#post-slider" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
 	</div>
 
 	<footer class="bg-dark text-white">
