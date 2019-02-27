@@ -30,3 +30,27 @@
 	background-image: linear-gradient(to bottom, #eee, #fff, #eee);
 	border-bottom: solid 2px #aaa;
 }
+
+/* POSTS GRID */
+
+.post-thumbnail {
+	height: 200px;
+	text-align: center;
+	background-color: #ddd;
+}
+
+.post-thumbnail:before {
+	content: 'THUMBNAIL';
+	line-height: 200px;
+}
+
+.post-intro {
+	font-size: 12px;
+}
+
+.post-cat {
+	padding: 4px 12px;
+	border: solid 1px #888;
+	color: #888;
+	font-size: 12px;
+}
